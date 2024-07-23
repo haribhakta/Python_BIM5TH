@@ -1,10 +1,3 @@
-# A lambda function that adds 10 to the input
-add_10 = lambda x: x + 10
-print(add_10(5))  # Output: 15
-
-# A lambda function that multiplies two numbers
-multiply = lambda x, y: x * y
-print(multiply(2, 3))  # Output: 6
 
 # Using lambda function to square elements in a list
 numbers = [1, 2, 3, 4]
