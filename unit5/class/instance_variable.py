@@ -27,3 +27,4 @@ print(your_car.description())  # Output: 2019 Blue Honda Civic
 # Changing the color of my_car
 my_car.paint("Black")
 print(my_car.description())  # Output: 2020 Black Toyota Corolla
+print(your_car.description())  # Output: 2020 Black Toyota Corolla

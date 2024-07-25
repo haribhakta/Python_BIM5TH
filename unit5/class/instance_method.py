@@ -9,7 +9,7 @@ class Car:
 
     # Instance method to describe the car
     def description(self):
-        return f"{self.year} {self.color} {self.make} {self.model}"
+        print (self.year, self.color, self.make,self.model)
 
     # Instance method to change the color of the car
     def paint(self, new_color):
@@ -41,3 +41,7 @@ print(your_car.age(2024))  # Output: 5
 
 # Comparing the age of the cars
 print(my_car.is_older_than(your_car))  # Output: False
+
+# WAP in python to create a class that uses instance variable and
+# instance method where user provides name and year of birth of
+# a person then calculate the age of his/her with name.
