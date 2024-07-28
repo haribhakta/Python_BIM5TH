@@ -1,6 +1,11 @@
+# WAP in python to create a class that have two method
+# one os static method and another is instance method.
+
 class MyClass:
     @staticmethod
     def add(a, b):
+        a
+
         return a + b
 
     @staticmethod
