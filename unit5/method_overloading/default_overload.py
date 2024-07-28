@@ -1,8 +1,9 @@
 # Program to show method_overloading in python to find area of
 # rectangle, square
+
 class Area:
     def findarea(self,l=None,b=None):
-        if l is not None:
+        if l is not None and b is None:
             # find area of square
             a = l * l
             print ("Area of square = ",a)
@@ -13,4 +14,4 @@ class Area:
 
 objarea = Area()
 objarea.findarea(5)
-objarea.findarea(2,7)
+objarea.findarea(7,2)

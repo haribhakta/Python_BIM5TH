@@ -4,7 +4,7 @@ class Area:
         if len(args)==0:
             # find area of square
             a = 1
-            print ("You donot havae any arguments")
+            print ("You donot have any arguments")
         elif len(args)==1:
             # find area of rectangle
             a = args[0] * args[0]
@@ -15,6 +15,7 @@ class Area:
         elif len(args) == 3:
             v = args[0] * args[1] * args[2]
             print("Volume of object = ",v)
+
 
 
 objarea = Area()
