@@ -1,2 +1,2 @@
 with open("example.txt", "a") as file:
-    file.write("\nThis is appended text.")
+    file.write("\n new This is appended text.")
