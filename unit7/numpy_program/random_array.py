@@ -5,7 +5,7 @@ random_array = np.random.rand(3, 3)  # Uniform distribution between 0 and 1
 print(random_array)
 
 print("Random number from 0 to 9")
-random_int_array = np.random.randint(0, 10, (2, 3))
+random_int_array = np.random.randint(100, 999, (3, 4))
 print(random_int_array)
 
 print("Specified value initialization array")

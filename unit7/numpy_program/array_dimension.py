@@ -17,6 +17,6 @@ print(tensor)
 #
 #  [[5 6]
 #   [7 8]]]
-darray = np.arange(24).reshape(2,3,4)
+darray = np.arange(24).reshape(3,2,2)
 print("Three dimensions:")
 print(darray)
