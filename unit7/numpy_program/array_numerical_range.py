@@ -19,7 +19,7 @@ print(array3)
 
 # Creating an array of 5 evenly spaced values from 0 to 1
 array1 = np.linspace(0, 1, 5)
-print(array1)
+print("linesace",array1)
 # Output: [0.   0.25 0.5  0.75 1.  ]
 
 # Creating an array of 10 evenly spaced values from 0 to 2π
