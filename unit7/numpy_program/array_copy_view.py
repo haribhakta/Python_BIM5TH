@@ -13,15 +13,17 @@ arr = np.array([1, 2, 3, 4, 5])
 arr_view = arr.view()
 
 arr_view[0] = 99
-
+arr[1]=100
 print("Original Array:", arr)   # Output: [99, 2, 3, 4, 5]
 print("View Array:", arr_view)  # Output: [99, 2, 3, 4, 5]
 
+
 # check array is view or copy
 arr = np.array([1, 2, 3, 4, 5])
-arr_view = arr.view()
-arr_copy = arr.copy()
+arr1 = arr.view()
+arr2 = arr.copy()
 
-print(arr_view.base is arr)  # Output: True (arr_view is a view)
-print(arr_copy.base is arr)  # Output: False (arr_copy is a copy)
+
+print(arr1.base is arr)  # Output: True (arr_view is a view)
+print(arr2.base is arr)  # Output: False (arr_copy is a copy)
 

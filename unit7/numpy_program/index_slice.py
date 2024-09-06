@@ -22,5 +22,7 @@ print("Every second element",arr[::2])  # Output: [1, 3, 5] (every second elemen
 arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 print("Rows from 1 to end cols from 0 to 1",arr[1:, :2])
 
-arr = np.array([1, 2, 3, 4, 5])
-print("Element > 3",arr[arr > 3])  # Output: [4, 5] (elements greater than 3)
+
+
+arr = np.array([1, 2, 3, 4, 5,10])
+print("Element > 3",arr[arr > 6])  # Output: [4, 5] (elements greater than 3)
