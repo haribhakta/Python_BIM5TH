@@ -8,7 +8,9 @@ data = [
 ]
 df = pd.DataFrame(data)
 print(df)
-print("Missing Data = ",df.isnull())
+print("Missing Data by null = ",df.isnull())
+print("Missing Data by na = ",df.isna())
+
 print("Missing Data Summary = ",df.isnull().sum())
 print("Filling Missing Values = ",df.fillna({'Age': 0, 'City': 'unknown'}))
 # print("Replacing Missing Values = ",df.replace(df.NaN,0))
